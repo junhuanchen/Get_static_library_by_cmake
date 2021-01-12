@@ -14,5 +14,5 @@ add_executable(test
     src/main.cpp
 )
 
-# 链接静态库文件
-target_link_libraries(test PRIVATE ${PROJECT_SOURCE_DIR}/libMyClassTest.a)
+# 链接静态库文件(/../build/libMyClassTest.a)
+target_link_libraries(test PRIVATE ${PROJECT_SOURCE_DIR}/../build/libMyClassTest.a)
